@@ -1,0 +1,47 @@
+.main-div{
+    padding: 1rem 2rem;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align:center;
+}
+.header{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.inputCover{
+    margin: 0.5rem 0;
+}
+.title{
+    font-size: 1.4rem;
+}
+.common-input-css{
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+.submit-button{
+    margin-top: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.4rem;
+    background-color: #753fd2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width:633px) {
+    .main-div{
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem;
+    }
+    .common-input-css , .submit-button{
+        width: 80%;
+    }
+}
